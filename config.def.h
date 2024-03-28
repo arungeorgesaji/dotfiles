@@ -67,7 +67,7 @@ static const char *rofi[] = {"rofi","-show","drun","-show-emojis",NULL};
 static const char *code[] = {"code",NULL};
 static const char *vlc[] = {"vlc",NULL};
 static const char *gimp[] = {"gimp",NULL};
-static const char *chromium[] = {"chromium",NULL};
+static const char *thorium[] = {"thorium-browser",NULL};
 static const char *shotcut[] = {"/snap/bin/shotcut",NULL};
 static const char *audacity[] = {"audacity",NULL};
 static const char *flstudio[] = { "bash/run_fl.sh",NULL };
@@ -77,10 +77,13 @@ static const char *hotspot[] = { "wihotspot",NULL };
 static const char *bluetooth[] = { "blueman-manager",NULL };
 static const char *increase_volume[] = {"pactl","set-sink-volume","@DEFAULT_SINK@","+5%",NULL};
 static const char *decrease_volume[] = {"pactl","set-sink-volume","@DEFAULT_SINK@","-5%",NULL};
+static const char *audio_control[] = {"pavucontrol",NULL};
+
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
+	{ MODKEY|ALTKEY,                XK_p,      spawn,          {.v = audio_control } },
 	{ MODKEY|ALTKEY,                XK_equal,  spawn,          {.v = increase_volume } },
-	{ MODKEY|ALTKEY,                XK_minus,      spawn,          {.v = decrease_volume } },
+	{ MODKEY|ALTKEY,                XK_minus,  spawn,          {.v = decrease_volume } },
 	{0,                       PrintScreenDWM,  spawn,          {.v = screenshot } },
 	{ MODKEY|ALTKEY,                XK_h,      spawn,          {.v = hotspot } },
 	{ MODKEY|ALTKEY,                XK_w,      spawn,          {.v = bluetooth } },
@@ -92,7 +95,7 @@ static const Key keys[] = {
 	{ MODKEY|ALTKEY,                XK_c,      spawn,          {.v = code } },
 	{ MODKEY|ALTKEY,                XK_v,      spawn,          {.v = vlc } },
 	{ MODKEY|ALTKEY,                XK_g,      spawn,          {.v = gimp } },
-	{ MODKEY|ALTKEY,                XK_b,      spawn,          {.v = chromium } },
+	{ MODKEY|ALTKEY,                XK_b,      spawn,          {.v = thorium } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
