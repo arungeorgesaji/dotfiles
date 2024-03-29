@@ -78,6 +78,10 @@ static const char *bluetooth[] = { "blueman-manager",NULL };
 static const char *increase_volume[] = {"pactl","set-sink-volume","@DEFAULT_SINK@","+5%",NULL};
 static const char *decrease_volume[] = {"pactl","set-sink-volume","@DEFAULT_SINK@","-5%",NULL};
 static const char *audio_control[] = {"pavucontrol",NULL};
+static const char *uget[] = {"uget-gtk",NULL};
+static const char *qbittorrent[] = {"qbittorrent",NULL};
+static const char *rofi_network_manager[] = {"rofi-network-manager/rofi-network-manager.sh",NULL};
+static const char *boxes[] = {"flatpak","run","org.gnome.Boxes",NULL};
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -85,9 +89,13 @@ static const Key keys[] = {
 	{ MODKEY|ALTKEY,                XK_equal,  spawn,          {.v = increase_volume } },
 	{ MODKEY|ALTKEY,                XK_minus,  spawn,          {.v = decrease_volume } },
 	{0,                       PrintScreenDWM,  spawn,          {.v = screenshot } },
+	{ MODKEY|ALTKEY,                XK_n,      spawn,          {.v = rofi_network_manager } },
 	{ MODKEY|ALTKEY,                XK_h,      spawn,          {.v = hotspot } },
 	{ MODKEY|ALTKEY,                XK_w,      spawn,          {.v = bluetooth } },
 	{ MODKEY,                       XK_p,      spawn,          {.v = rofi } },
+	{ MODKEY|ALTKEY,                       XK_m,      spawn,          {.v = boxes } },
+	{ MODKEY|ALTKEY,                XK_u,      spawn,          {.v = uget} },
+	{ MODKEY|ALTKEY,                XK_q,      spawn,          {.v = qbittorrent } },
 	{ MODKEY|ALTKEY,                XK_s,      spawn,          {.v = shotcut } },
 	{ MODKEY|ALTKEY,                XK_a,      spawn,          {.v = audacity } },
 	{ MODKEY|ALTKEY,                XK_f,      spawn,          {.v = flstudio } },
