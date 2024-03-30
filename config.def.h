@@ -84,7 +84,8 @@ static const char *rofi_network_manager[] = {"rofi-network-manager/rofi-network-
 static const char *boxes[] = {"flatpak","run","org.gnome.Boxes",NULL};
 static const char *inkscape[] = {"inkscape",NULL};
 static const char *anydesk[] = {"anydesk",NULL};
-static const char *gitkraken[] = {"gitkraken",NULL};
+static const char *obs_studio[] = {"obs",NULL};
+static const char *vnc_viewer[] = {"vncviewer",NULL};
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -99,7 +100,6 @@ static const Key keys[] = {
 	{ MODKEY|ALTKEY,                XK_m,      spawn,          {.v = boxes } },
 	{ MODKEY|ALTKEY,                XK_u,      spawn,          {.v = uget} },
 	{ MODKEY|ALTKEY,                XK_q,      spawn,          {.v = qbittorrent } },
-	{ MODKEY|ALTKEY,                XK_k,      spawn,          {.v = gitkraken } },
 	{ MODKEY|ALTKEY,                XK_t,      spawn,          {.v = anydesk } },
 	{ MODKEY|ALTKEY,                XK_s,      spawn,          {.v = shotcut } },
 	{ MODKEY|ALTKEY,                XK_a,      spawn,          {.v = audacity } },
@@ -110,6 +110,8 @@ static const Key keys[] = {
 	{ MODKEY|ALTKEY,                XK_g,      spawn,          {.v = gimp } },
 	{ MODKEY|ALTKEY,                XK_i,      spawn,          {.v = inkscape } },
 	{ MODKEY|ALTKEY,                XK_b,      spawn,          {.v = thorium } },
+	{ MODKEY|ALTKEY,                XK_o,      spawn,          {.v = obs_studio } },
+	{ MODKEY|ALTKEY,                XK_r,      spawn,          {.v = vnc_viewer } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
