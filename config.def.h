@@ -82,6 +82,9 @@ static const char *uget[] = {"uget-gtk",NULL};
 static const char *qbittorrent[] = {"qbittorrent",NULL};
 static const char *rofi_network_manager[] = {"rofi-network-manager/rofi-network-manager.sh",NULL};
 static const char *boxes[] = {"flatpak","run","org.gnome.Boxes",NULL};
+static const char *inkscape[] = {"inkscape",NULL};
+static const char *anydesk[] = {"anydesk",NULL};
+static const char *gitkraken[] = {"gitkraken",NULL};
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -93,9 +96,11 @@ static const Key keys[] = {
 	{ MODKEY|ALTKEY,                XK_h,      spawn,          {.v = hotspot } },
 	{ MODKEY|ALTKEY,                XK_w,      spawn,          {.v = bluetooth } },
 	{ MODKEY,                       XK_p,      spawn,          {.v = rofi } },
-	{ MODKEY|ALTKEY,                       XK_m,      spawn,          {.v = boxes } },
+	{ MODKEY|ALTKEY,                XK_m,      spawn,          {.v = boxes } },
 	{ MODKEY|ALTKEY,                XK_u,      spawn,          {.v = uget} },
 	{ MODKEY|ALTKEY,                XK_q,      spawn,          {.v = qbittorrent } },
+	{ MODKEY|ALTKEY,                XK_k,      spawn,          {.v = gitkraken } },
+	{ MODKEY|ALTKEY,                XK_t,      spawn,          {.v = anydesk } },
 	{ MODKEY|ALTKEY,                XK_s,      spawn,          {.v = shotcut } },
 	{ MODKEY|ALTKEY,                XK_a,      spawn,          {.v = audacity } },
 	{ MODKEY|ALTKEY,                XK_f,      spawn,          {.v = flstudio } },
@@ -103,6 +108,7 @@ static const Key keys[] = {
 	{ MODKEY|ALTKEY,                XK_c,      spawn,          {.v = code } },
 	{ MODKEY|ALTKEY,                XK_v,      spawn,          {.v = vlc } },
 	{ MODKEY|ALTKEY,                XK_g,      spawn,          {.v = gimp } },
+	{ MODKEY|ALTKEY,                XK_i,      spawn,          {.v = inkscape } },
 	{ MODKEY|ALTKEY,                XK_b,      spawn,          {.v = thorium } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
