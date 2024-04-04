@@ -60,7 +60,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *termcmd[]  = { "alacritty", NULL };
+static const char *termcmd[]  = { "kitty","--single-instance",NULL };
 
 /*custom commands*/
 static const char *rofi[] = {"rofi","-show","drun","-show-emojis",NULL};
@@ -81,11 +81,11 @@ static const char *audio_control[] = {"pavucontrol",NULL};
 static const char *uget[] = {"uget-gtk",NULL};
 static const char *qbittorrent[] = {"qbittorrent",NULL};
 static const char *rofi_network_manager[] = {"rofi-network-manager/rofi-network-manager.sh",NULL};
-static const char *boxes[] = {"flatpak","run","org.gnome.Boxes",NULL};
 static const char *inkscape[] = {"inkscape",NULL};
 static const char *anydesk[] = {"anydesk",NULL};
 static const char *obs_studio[] = {"obs",NULL};
 static const char *vnc_viewer[] = {"vncviewer",NULL};
+static const char *boxes[] = {"gnome-boxes",NULL};
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
