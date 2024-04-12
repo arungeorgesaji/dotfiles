@@ -1,0 +1,131 @@
+# Basic Settings
+
+#Show hidden files
+set hidden true
+
+#Ignore the case of all files and directories when searching
+set ignorecase true
+
+#Show icons sets in bashrc for files and directories(according to file extensions for  the#files)
+set icons true
+
+#Get all supported formats
+
+# Custom Functions
+
+#Function which makes directories(according to the name the user input's)
+cmd mkdir ${{
+  printf "Directory Name: "
+  read ans
+  sudo mkdir $ans
+}}
+
+#Function which makes files(according to the name the user input's)
+cmd mkfile ${{
+  printf "File Name: "
+  read ans
+  sudo touch $ans
+}}
+
+#Function which performs unarchive to all selected items(uses different techniques accordi#ng to the file extensions)
+cmd unarchive ${{
+  case "$f" in
+      *.zip) sudo unzip "$f" ;;
+      *.tar.gz) sudo tar -xzvf "$f" ;;
+      *.tar.bz2) sudo tar -xjvf "$f" ;;
+      *.tar) sudo tar -xvf "$f" ;;
+      *) echo "Unsupported format" ;;
+  esac
+}}
+
+#Function which sents selected files and folders to trash
+cmd trash ${{
+  files=$(printf "$fx" | tr '\n' ';')
+  while [ "$files" ]; do
+    file=${files%%;*}
+
+    sudo trash-put "$(basename "$file")"
+    if [ "$files" = "$file" ]; then
+      files=''
+    else
+      files="${files#*;}"
+    fi
+  done
+}}
+
+#Function which restores all files from trash
+cmd restore_trash ${{
+  trash-restore
+}}
+
+cmd delete ${{
+  files=$(printf "$fx" | tr '\n' ';')
+  while [ "$files" ]; do
+    file=${files%%;*}
+
+    sudo rm -rf "$(basename "$file")"
+    if [ "$files" = "$file" ]; then
+      files=''
+    else
+      files="${files#*;}"
+    fi
+  done
+}}
+
+#Uses a bash script with all the selected files and opens it with vlc or nvim according  #to the mime type
+cmd open_file ${{
+  files=$(printf "$fx" | tr '\n' ';')
+  while [ "$files" ]; do
+    file=${files%%;*} 
+
+    ~/bash/open_file.sh "$(basename "$file")"
+    if [ "$files" = "$file" ]; then
+      files=''
+    else
+      files="${files#*;}"
+    fi
+  done
+}}
+
+#Bindings
+
+#Remove bindings 
+map u
+map d
+map m 
+map j
+#Add custom bindings
+
+#Bindings which allow the user to perform special actions
+map ua unarchive
+map . set hidden!  
+map dd trash
+map D delete
+map dr restore_trash
+map x cut
+map p paste
+map y copy
+map c clear
+map <enter>  open_file 
+map R reload
+map mf mkfile
+map md mkdir
+map bg setwallpaper
+
+#Bindings specifically for moving between important directories
+map jhom cd ~/
+map jdoc cd ~/Documents
+map jdow cd ~/Downloads
+map jmus cd ~/Music
+map jpic cd ~/Pictures
+map jvid cd ~/Videos
+map jcon cd ~/.config
+map jetc cd ~/../../etc
+map jtmp cd ~/../../tmp 
+map jsys cd ~/../../sys
+map jdev cd ~/../../dev
+map jusr cd ~/../../usr
+map jboo cd ~/../../boot
+
+
+

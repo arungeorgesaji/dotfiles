@@ -1,9 +1,0 @@
-call plug#begin('~/.config/nvim/plugged')
-call plug#end()
-Plug 'rebelot/kanagawa.nvim'
-set number
-set relativenumber
-set tabstop=4
-set shiftwidth=4
-set autoindent
-set mouse=a
