@@ -1,5 +1,5 @@
 ## Software I Use
-This is a detailed list of all the software I use on my system. It can change at any time, as it probably will because in Linux the fun part is there are so many options.
+This is a detailed list of all the software I use on my system for daily tasks and stuff, this list won't include the software I use specific to some projects so stuff like docker or Kubernetes won't be included. It can change at any time, as it probably will because in Linux the fun part is there are so many options.
 
 - Kernel: [Linux](https://github.com/torvalds/linux)
 - Distro: [Arch Linux](https://archlinux.org/)
