@@ -1,3 +1,6 @@
+![Alt Text](homescreen.png)
+"This is where I keep all my dotfiles. Note: Each folder doesn't contain all the files required for that specific software to run; it only contains the customizable files. The folders are present for easy navigation and organization purposes. I don't recommend that you use my setup as it is, but rather take parts of it to help achieve your dream Linux system, which is completely unique."
+
 ## Software I Use
 This is a detailed list of all the software I use on my system for daily tasks and stuff, this list won't include the software I use specific to some projects so stuff like docker or Kubernetes won't be included. It can change at any time, as it probably will because in Linux the fun part is there are so many options.
 
