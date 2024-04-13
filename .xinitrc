@@ -1,8 +1,8 @@
-#Run low battery alert script in the background
-bash/low_battery_alert.sh &
-
 #Run dunst
 dunst &
+
+#Run low battery alert script in the background
+bash/low_battery_alert.sh &
 
 # Set wallpaper using feh
 feh --bg-scale Pictures/wallpapers/wallpaper.webp
