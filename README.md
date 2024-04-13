@@ -10,24 +10,24 @@ This is a detailed list of all the software I use on my system for daily tasks a
 - **Kernel:** [Linux](https://github.com/torvalds/linux)
 - **Distro:** [Arch Linux](https://archlinux.org/)
 - **Display Manager:** [ly](https://github.com/fairyglade/ly)
+- **X Server:** [Xorg](https://www.x.org/wiki/)
 - **Window Manager:** [dwm](https://dwm.suckless.org/)
 - **Status Bar:** [dwmblocks](https://github.com/torrinfail/dwmblocks)
 - **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
 - **Launcher:** [rofi](https://github.com/davatorium/rofi)
-- **Browser:** [thorium](https://github.com/Alex313031/thorium)
+- **Sound Server:** [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)
 
 ### Basic Utilities:
 
+- **Browser:** [thorium](https://github.com/Alex313031/thorium)
 - **Multimedia Player:** [VLC](https://www.videolan.org/vlc/)
 - **File Manager:** [lf](https://github.com/gokcehan/lf)
-- **Fonts:** [FiraCode](https://github.com/tonsky/FiraCode)
+- **Fonts:** [FiraCode](https://github.com/tonsky/FiraCode) and [Firacode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
 - **Rofi Theme:** [rounded-red-dark.rasi](https://github.com/newmanls/rofi-themes-collection)
 - **Text Editor:** [Neovim](https://neovim.io/) with [NvChad](https://nvchad.com/)
 - **Volume Control:** [Pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/)
-- **Sound Server:** [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)
-- **X Server:** [Xorg](https://www.x.org/wiki/)
-- **Security Monitoring Platform:** [Wazuh](https://wazuh.com/)
-- **Network Protocol Analyzer:** [Wireshark](https://www.wireshark.org/)
+- **Notifications:** [Dunst](https://github.com/dunst-project/dunst)
+
 ### Productivity and Creativity Tools:
 
 - **Video Editor:** [Shotcut](https://shotcut.org/)
@@ -48,6 +48,8 @@ This is a detailed list of all the software I use on my system for daily tasks a
 
 ### Advanced Tools:
 
+- **Security Monitoring Platform:** [Wazuh](https://wazuh.com/)
+- **Network Protocol Analyzer:** [Wireshark](https://www.wireshark.org/)
 - **Message Broker:** [Apache Kafka](https://kafka.apache.org/)
 - **Containerization Platform:** [Docker](https://www.docker.com/)
 - **Container Orchestration:** [Kubernetes](https://kubernetes.io/) with [MiniKube](https://minikube.sigs.k8s.io/docs/)

@@ -1,3 +1,6 @@
+#Run dunst
+dunst &
+
 # Set wallpaper using feh
 feh --bg-scale Pictures/wallpapers/wallpaper.webp
 
