@@ -26,7 +26,8 @@ This is a detailed list of all the software I use on my system for daily tasks a
 - **Volume Control:** [Pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/)
 - **Sound Server:** [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)
 - **X Server:** [Xorg](https://www.x.org/wiki/)
-
+- **Security Monitoring Platform:** [Wazuh](https://wazuh.com/)
+- **Network Protocol Analyzer:** [Wireshark](https://www.wireshark.org/)
 ### Productivity and Creativity Tools:
 
 - **Video Editor:** [Shotcut](https://shotcut.org/)
