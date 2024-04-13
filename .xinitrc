@@ -1,3 +1,6 @@
+#Run low battery alert script in the background
+bash/low_battery_alert.sh &
+
 #Run dunst
 dunst &
 
