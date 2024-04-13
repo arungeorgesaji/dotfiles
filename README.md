@@ -20,7 +20,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
 
 - **Multimedia Player:** [VLC](https://www.videolan.org/vlc/)
 - **File Manager:** [lf](https://github.com/gokcehan/lf)
-- **Fonts:** [FiraCode Nerd Font (Bold)](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/Bold)
+- **Fonts:** [FiraCode](https://github.com/tonsky/FiraCode)
 - **Rofi Theme:** [rounded-red-dark.rasi](https://github.com/newmanls/rofi-themes-collection)
 - **Text Editor:** [Neovim](https://neovim.io/) with [NvChad](https://nvchad.com/)
 - **Volume Control:** [Pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/)
