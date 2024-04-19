@@ -115,6 +115,7 @@ map bg setwallpaper
 
 #Bindings specifically for moving between important directories
 map jhom cd ~/../home/arun
+map jdoc cd ~/../home/arun/Desktop
 map jdoc cd ~/../home/arun/Documents
 map jdow cd ~/../home/arun/Downloads
 map jmus cd ~/../home/arun/Music
