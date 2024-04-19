@@ -78,7 +78,7 @@ cmd open_file ${{
   while [ "$files" ]; do
     file=${files%%;*} 
 
-    ~/bash/open_file.sh "$(basename "$file")"
+    ~/../home/arun/bash/open_file.sh "$(basename "$file")"
     if [ "$files" = "$file" ]; then
       files=''
     else
@@ -105,6 +105,7 @@ map dr restore_trash
 map x cut
 map p paste
 map y copy
+map r rename
 map c clear
 map <enter>  open_file 
 map R reload
@@ -113,19 +114,21 @@ map md mkdir
 map bg setwallpaper
 
 #Bindings specifically for moving between important directories
-map jhom cd ~/
-map jdoc cd ~/Documents
-map jdow cd ~/Downloads
-map jmus cd ~/Music
-map jpic cd ~/Pictures
-map jvid cd ~/Videos
-map jcon cd ~/.config
-map jetc cd ~/../../etc
-map jtmp cd ~/../../tmp 
-map jsys cd ~/../../sys
-map jdev cd ~/../../dev
-map jusr cd ~/../../usr
-map jboo cd ~/../../boot
+map jhom cd ~/../home/arun
+map jdoc cd ~/../home/arun/Documents
+map jdow cd ~/../home/arun/Downloads
+map jmus cd ~/../home/arun/Music
+map jpic cd ~/../home/arun/Pictures
+map jvid cd ~/../home/arun/Videos
+map jcon cd ~/../home/arun/.config
+map jbas cd ~/../home/arun/bash
+map jetc cd ~/../etc
+map jtmp cd ~/../tmp 
+map jsys cd ~/../sys
+map jdev cd ~/../dev
+map jusr cd ~/../usr
+map jboo cd ~/../boot
+
 
 
 
