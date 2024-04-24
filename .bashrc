@@ -1,9 +1,10 @@
+
 #
 # ~/.bashrc
 #
 
 # If not running interactively, don't do anything
-# [[ $- != *i* ]] && return
+[[ $- != *i* ]] && return
 
 #Set aliases to make using some commands easier
 alias flstudio='grep '^Exec=' ~/.local/share/applications/flstudio.desktop | sed 's/^Exec=//' | sed 's/%.//' | sh'
@@ -12,8 +13,11 @@ alias grep='grep --color=auto'
 alias icat='kitty +kitten icat'
 alias clear='clear && neofetch'
 
-#Set primary prompt string(its like in the terminal you see the username and stuff wh;e ty#ping well ya basically that for more information just search around the PS1 .bashrc or so#mething)
+#Set primary prompt string(its like in the terminal you see the username and stuff while typing well ya basically that for more information just search around the PS1 .bashrc or something)
 PS1='[\u@\h \W]\$ '
+
+#This basically exports locale to c which allows ensures consistent behavior across different systems, regardless of their default locale settings.
+export LC_ALL="C"
 
 #This basically allows the use of autojump package to move around directories easily
 [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
