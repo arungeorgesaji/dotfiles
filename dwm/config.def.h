@@ -64,7 +64,7 @@ static const char *termcmd[]  = { "kitty","--single-instance",NULL };
 
 /*custom commands*/
 static const char *rofi[] = {"rofi","-show","drun","-show-emojis",NULL};
-static const char *lf[] = {"kitty","-e","sudo","lf",NULL};
+static const char *lf[] = {"kitty","-e","lf",NULL};
 static const char *code[] = {"kitty","-e","nvim",NULL};
 static const char *vlc[] = {"vlc",NULL};
 static const char *gimp[] = {"gimp",NULL};
