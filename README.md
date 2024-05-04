@@ -11,7 +11,17 @@ This is a detailed list of all the software I use on my system for daily tasks a
 - **Distro:** [Arch Linux](https://archlinux.org/)
 - **Display Manager:** [ly](https://github.com/fairyglade/ly)
 - **X Server:** [Xorg](https://www.x.org/wiki/)
-- **Window Manager:** [dwm](https://dwm.suckless.org/)
+- **Window Manager:** [dwm](https://dwm.suckless.org/) with the following patches:
+  - **Layout Patches(I love to use the default ones,these layouts are for specific situations only):**
+    - [Bottomstack (Bstack,Bstackhoriz)](https://dwm.suckless.org/patches/bottomstack/)
+    - [Centeredmaster (Centeredmaster,Centeredfloatingmaster)](https://dwm.suckless.org/patches/centeredmaster/)
+    - [Deck](https://dwm.suckless.org/patches/deck/)
+    - [Fibonacci (Dwindle, Spiral)](https://dwm.suckless.org/patches/fibonacci/)
+    - [Grid](https://dwm.suckless.org/patches/gridmode/)
+    - [Nrowgrid](https://dwm.suckless.org/patches/nrowgrid/) 
+  - **Visual Enhancements:**
+    - [Vanitygaps](https://dwm.suckless.org/patches/vanitygaps/)
+
 - **Status Bar:** [dwmblocks](https://github.com/torrinfail/dwmblocks)
 - **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
 - **Launcher:** [rofi](https://github.com/davatorium/rofi)
