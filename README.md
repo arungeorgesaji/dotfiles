@@ -21,7 +21,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
     - [Nrowgrid](https://dwm.suckless.org/patches/nrowgrid/) 
   - **Visual Enhancements:**
     - [Vanitygaps](https://dwm.suckless.org/patches/vanitygaps/)
-
+- **Compositor:** [picom](https://github.com/yshui/picom)
 - **Status Bar:** [dwmblocks](https://github.com/torrinfail/dwmblocks)
 - **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
 - **Launcher:** [rofi](https://github.com/davatorium/rofi)
