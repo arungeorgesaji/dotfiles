@@ -33,7 +33,12 @@ This is a detailed list of all the software I use on my system for daily tasks a
   - **Ad Blocker:** [AdGuard](https://adguard.com/)
   - **Enable Right Click Copy:** [Absolute Enable Right Click & Copy](https://chromewebstore.google.com/detail/absolute-enable-right-cli/jdocbkpgdakpekjlhemmfcncgdjeiika)
   - **Clear Cache:** [Clear Cache](https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn)
-  - **Grammar Checker:** [Grammarly](https://www.grammarly.com/)
+  - **Grammar Checker:** [Grammarly](https
+[arun@ArchLinux dwm]$ ls 
+LICENSE   config.def.h       config.mk  drw.o  dwm.c       dwm.png      util.h
+Makefile  config.def.h.orig  drw.c      dwm    dwm.c.orig  transient.c  util.o
+README    config.def.h.rej   drw.h      dwm.1  dwm.o       util.c       vanitygaps.c
+[arun@ArchLinux dwm]$ ://www.grammarly.com/)
   - **New Tab Extension:** [Speed Dial 2 New Tab](https://speeddial2.com/)
   - **YouTube Enhancer:** [Enhancer for YouTube](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
   - **Volume Control:** [Volume Master](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)
@@ -47,6 +52,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
 
 ### Productivity and Creativity Tools:
 
+- **MS-365-Electron:** [MS-365-Electron](https://github.com/agam778/MS-365-Electron)
 - **Video Editor:** [Shotcut](https://shotcut.org/)
 - **Digital Drawing:** [Krita](https://krita.org/en/)
 - **Image Manipulation:** [GIMP](https://www.gimp.org/) and [Canva](https://www.canva.com/)
@@ -63,7 +69,6 @@ This is a detailed list of all the software I use on my system for daily tasks a
 
 ### Advanced Tools:
 
-- **Security Monitoring Platform:** [Wazuh](https://wazuh.com/)
 - **Network Protocol Analyzer:** [Wireshark](https://www.wireshark.org/)
 - **Message Broker:** [Apache Kafka](https://kafka.apache.org/)
 - **Containerization Platform:** [Docker](https://www.docker.com/)
