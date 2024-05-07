@@ -26,7 +26,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
 - **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
 - **Launcher:** [rofi](https://github.com/davatorium/rofi)
 - **Sound Server:** [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)
-- **System Information Tool:** [Fastfetch](https://github.com/fastfetch/fastfetch)
+- **System Information Tool:** [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
 ### Basic Utilities:
 
