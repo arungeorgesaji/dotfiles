@@ -26,6 +26,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
 - **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
 - **Launcher:** [rofi](https://github.com/davatorium/rofi)
 - **Sound Server:** [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)
+- **System Information Tool:** [Fastfetch](https://github.com/fastfetch/fastfetch)
 
 ### Basic Utilities:
 
@@ -34,11 +35,6 @@ This is a detailed list of all the software I use on my system for daily tasks a
   - **Enable Right Click Copy:** [Absolute Enable Right Click & Copy](https://chromewebstore.google.com/detail/absolute-enable-right-cli/jdocbkpgdakpekjlhemmfcncgdjeiika)
   - **Clear Cache:** [Clear Cache](https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn)
   - **Grammar Checker:** [Grammarly](https
-[arun@ArchLinux dwm]$ ls 
-LICENSE   config.def.h       config.mk  drw.o  dwm.c       dwm.png      util.h
-Makefile  config.def.h.orig  drw.c      dwm    dwm.c.orig  transient.c  util.o
-README    config.def.h.rej   drw.h      dwm.1  dwm.o       util.c       vanitygaps.c
-[arun@ArchLinux dwm]$ ://www.grammarly.com/)
   - **New Tab Extension:** [Speed Dial 2 New Tab](https://speeddial2.com/)
   - **YouTube Enhancer:** [Enhancer for YouTube](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
   - **Volume Control:** [Volume Master](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)

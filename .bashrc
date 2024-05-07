@@ -11,7 +11,7 @@ alias flstudio='grep '^Exec=' ~/.local/share/applications/flstudio.desktop | sed
 alias ls='ls --almost-all --color=auto'
 alias grep='grep --color=auto'
 alias icat='kitty +kitten icat'
-alias clear='clear && neofetch'
+alias clear='clear && fastfetch'
 
 #Set primary prompt string(its like in the terminal you see the username and stuff while typing well ya basically that for more information just search around the PS1 .bashrc or something)
 PS1='[\u@\h \W]\$ '
@@ -187,4 +187,4 @@ ex=:\
 "
 
 #Commands to run when bash starts
-neofetch
+fastfetch
