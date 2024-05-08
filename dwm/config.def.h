@@ -83,6 +83,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "kitty","--single-instance",NULL };
 
 /*custom commands*/
+static const char *slock[] = {"slock",NULL};
 static const char *rofi[] = {"rofi","-show","drun","-show-emojis",NULL};
 static const char *lf[] = {"kitty","-e","lf",NULL};
 static const char *code[] = {"kitty","-e","nvim",NULL};
@@ -112,6 +113,7 @@ static const char *boxes[] = {"gnome-boxes",NULL};
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
+	{ MODKEY|ShiftMask,             XK_l,      spawn,          {.v = slock } },
 	{ MODKEY|ALTKEY,                XK_p,      spawn,          {.v = audio_control } },
 	{ MODKEY|ALTKEY,                XK_equal,  spawn,          {.v = increase_volume } },
 	{ MODKEY|ALTKEY,                XK_minus,  spawn,          {.v = decrease_volume } },

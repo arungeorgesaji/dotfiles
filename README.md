@@ -10,6 +10,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
 - **Kernel:** [Linux](https://github.com/torvalds/linux)
 - **Distro:** [Arch Linux](https://archlinux.org/)
 - **Display Manager:** [ly](https://github.com/fairyglade/ly)
+- **System and Service Manager:** [Systemd](https://systemd.io/)
 - **X Server:** [Xorg](https://www.x.org/wiki/)
 - **Window Manager:** [dwm](https://dwm.suckless.org/) with the following patches:
   - **Layout Patches(I love to use the default ones,these layouts are for specific situations only):**
@@ -23,6 +24,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
     - [Vanitygaps](https://dwm.suckless.org/patches/vanitygaps/)
 - **Compositor:** [picom](https://github.com/yshui/picom)
 - **Status Bar:** [dwmblocks](https://github.com/torrinfail/dwmblocks)
+- **Lockscreen:** [slock](https://tools.suckless.org/slock/)
 - **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
 - **Launcher:** [rofi](https://github.com/davatorium/rofi)
 - **Sound Server:** [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)
