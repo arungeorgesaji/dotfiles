@@ -74,4 +74,5 @@ This is a detailed list of all the software I use on my system for daily tasks a
 - **Monitoring:** [Prometheus](https://prometheus.io/)
 - **Visualization:** [Grafana](https://grafana.com/)
 - **Embedded Systems Development:** [PlatformIO](https://platformio.org/)
+- **API Development Tool:** [Postman](https://www.postman.com/)
 - **Task Management:** [Trello](https://trello.com/)
