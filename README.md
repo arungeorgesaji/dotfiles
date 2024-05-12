@@ -58,7 +58,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
 - **DAW:** [Ardour](https://ardour.org/)
 - **Game Engine:** [Godot](https://godotengine.org/)
 - **3D Modeling:** [Blender](https://www.blender.org/)
-- **Virtual Machine:** [Boxes](https://help.gnome.org/users/gnome-boxes/stable/)
+- **Virtual Machine:** [Virtual Machine Manager](https://virt-manager.org/)
 - **Download Manager:** [uGet](https://ugetdm.com/)
 - **Torrent Manager:** [qbittorrent](https://www.qbittorrent.org/)
 - **Network Manager:** [NetworkManager](https://networkmanager.dev/) and [rofi-network-manager](https://github.com/P3rf/rofi-network-manager)

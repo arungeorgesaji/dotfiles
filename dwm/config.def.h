@@ -110,7 +110,7 @@ static const char *rofi_network_manager[] = {"rofi-network-manager/rofi-network-
 static const char *inkscape[] = {"inkscape",NULL};
 static const char *krita[] = {"krita",NULL};
 static const char *obs_studio[] = {"obs",NULL};
-static const char *boxes[] = {"gnome-boxes",NULL};
+static const char *virtmanager[] = {"kitty","-e","sudo","virt-manager",NULL};
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -125,7 +125,7 @@ static const Key keys[] = {
 	{ MODKEY|ALTKEY,                XK_h,      spawn,          {.v = hotspot } },
 	{ MODKEY|ALTKEY,                XK_w,      spawn,          {.v = bluetooth } },
 	{ MODKEY,                       XK_p,      spawn,          {.v = rofi } },
-	{ MODKEY|ALTKEY,                XK_m,      spawn,          {.v = boxes } },
+	{ MODKEY|ALTKEY,                XK_m,      spawn,          {.v = virtmanager } },
 	{ MODKEY|ALTKEY,                XK_f,      spawn,          {.v = office } },
 	{ MODKEY|ALTKEY,                XK_e,      spawn,          {.v = wireshark } },
 	{ MODKEY|ALTKEY,                XK_r,      spawn,          {.v = postman } },
