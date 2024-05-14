@@ -27,6 +27,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
 - **Lockscreen:** [slock](https://tools.suckless.org/slock/)
 - **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
 - **Launcher:** [rofi](https://github.com/davatorium/rofi)
+  - **Theme:** [rounded-red-dark.rasi](https://github.com/newmanls/rofi-themes-collection)
 - **Sound Server:** [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)
 - **System Information Tool:** [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
@@ -43,8 +44,8 @@ This is a detailed list of all the software I use on my system for daily tasks a
 - **Multimedia Player:** [VLC](https://www.videolan.org/vlc/)
 - **File Manager:** [lf](https://github.com/gokcehan/lf)
 - **Fonts:** [FiraCode](https://github.com/tonsky/FiraCode) and [Firacode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
-- **Rofi Theme:** [rounded-red-dark.rasi](https://github.com/newmanls/rofi-themes-collection)
 - **Text Editor:** [Neovim](https://neovim.io/) with [NvChad](https://nvchad.com/)
+  - **Theme:** [darkhorizon](https://nvchad.com/)
 - **Volume Control:** [Pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/) for comprehensive audio management, [pamixer](https://github.com/cdemoulins/pamixer) and [pactl](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/Developer/Clients/Pactl/) for quick and scriptable volume adjustments.
 - **Notifications:** [Dunst](https://github.com/dunst-project/dunst)
 

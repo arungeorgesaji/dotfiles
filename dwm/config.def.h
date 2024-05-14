@@ -110,7 +110,7 @@ static const char *rofi_network_manager[] = {"rofi-network-manager/rofi-network-
 static const char *inkscape[] = {"inkscape",NULL};
 static const char *krita[] = {"krita",NULL};
 static const char *obs_studio[] = {"obs",NULL};
-static const char *virtmanager[] = {"kitty","-e","sudo","virt-manager",NULL};
+static const char *virtmanager[] = {"virt-manager",NULL};
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
