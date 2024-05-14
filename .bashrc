@@ -7,11 +7,17 @@
 [[ $- != *i* ]] && return
 
 #Set aliases to make using some commands easier
-alias flstudio='grep '^Exec=' ~/.local/share/applications/flstudio.desktop | sed 's/^Exec=//' | sed 's/%.//' | sh'
 alias ls='ls --almost-all --color=auto'
 alias grep='grep --color=auto'
 alias icat='kitty +kitten icat'
 alias clear='clear && fastfetch'
+
+#Simple functions same use as aliases but this time for using multicommands
+conda-init(){
+    . /opt/miniconda3/etc/profile.d/conda.sh
+    conda activate base
+    export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1
+}
 
 #Set primary prompt string(its like in the terminal you see the username and stuff while typing well ya basically that for more information just search around the PS1 .bashrc or something)
 PS1='[\u@\h \W]\$ '
@@ -188,3 +194,4 @@ ex=:\
 
 #Commands to run when bash starts
 fastfetch
+
