@@ -43,7 +43,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
   - **Volume Control:** [Volume Master](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)
 - **Multimedia Player:** [VLC](https://www.videolan.org/vlc/)
 - **File Manager:** [lf](https://github.com/gokcehan/lf)
-- **Fonts:** [FiraCode](https://github.com/tonsky/FiraCode) and [Firacode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+- **Fonts:** [Noto Sans](https://github.com/notofonts/noto-docs)
 - **Text Editor:** [Neovim](https://neovim.io/) with [NvChad](https://nvchad.com/)
   - **Theme:** [darkhorizon](https://nvchad.com/)
 - **Volume Control:** [Pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/) for comprehensive audio management, [pamixer](https://github.com/cdemoulins/pamixer) and [pactl](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/Developer/Clients/Pactl/) for quick and scriptable volume adjustments.
