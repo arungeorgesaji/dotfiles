@@ -33,12 +33,11 @@ This is a detailed list of all the software I use on my system for daily tasks a
 
 ### Basic Utilities:
 
-- **Browser:** [thorium](https://github.com/Alex313031/thorium) with the following extensions:
+- **Browser:** [Vivaldi](https://vivaldi.com) with the following extensions:
   - **Ad Blocker:** [AdGuard](https://adguard.com/)
   - **Enable Right Click Copy:** [Absolute Enable Right Click & Copy](https://chromewebstore.google.com/detail/absolute-enable-right-cli/jdocbkpgdakpekjlhemmfcncgdjeiika)
   - **Clear Cache:** [Clear Cache](https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn)
-  - **Grammar Checker:** [Grammarly](https
-  - **New Tab Extension:** [Speed Dial 2 New Tab](https://speeddial2.com/)
+  - **Grammar Checker:** [Grammarly](https://chromewebstore.google.com/detail/grammarly-ai-writing-and/kbfnbcaeplbcioakkpcpgfkobkghlhen?pli=1)
   - **YouTube Enhancer:** [Enhancer for YouTube](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
   - **Volume Control:** [Volume Master](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)
 - **Multimedia Player:** [VLC](https://www.videolan.org/vlc/)

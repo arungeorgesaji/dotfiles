@@ -92,7 +92,7 @@ static const char *office[] = {"ms-365-electron",NULL};
 static const char *wireshark[] = {"wireshark",NULL};
 static const char *postman[] = {"postman",NULL};
 static const char *gimp[] = {"gimp",NULL};
-static const char *thorium[] = {"thorium-browser",NULL};
+static const char *vivaldi[] = {"vivaldi",NULL};
 static const char *shotcut[] = {"/snap/bin/shotcut",NULL};
 static const char *ardour[] = {"ardour8",NULL};
 static const char *godot[] = {"godot",NULL};
@@ -140,7 +140,7 @@ static const Key keys[] = {
 	{ MODKEY|ALTKEY,                XK_g,      spawn,          {.v = gimp } },
 	{ MODKEY|ALTKEY,                XK_i,      spawn,          {.v = inkscape } },
 	{ MODKEY|ALTKEY,                XK_k,      spawn,          {.v = krita } },
-	{ MODKEY|ALTKEY,                XK_b,      spawn,          {.v = thorium } },
+	{ MODKEY|ALTKEY,                XK_b,      spawn,          {.v = vivaldi } },
 	{ MODKEY|ALTKEY,                XK_o,      spawn,          {.v = obs_studio } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
