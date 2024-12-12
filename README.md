@@ -41,6 +41,7 @@ This is a detailed list of all the software I use on my system for daily tasks a
   - **YouTube Enhancer:** [Enhancer for YouTube](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
   - **Volume Control:** [Volume Master](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)
   - **Password Manager:** [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb?pli=1)
+- **Backup Browser:** [Firefox](https://www.mozilla.org/en-US/firefox/)
 - **Multimedia Player:** [VLC](https://www.videolan.org/vlc/)
 - **File Manager:** [lf](https://github.com/gokcehan/lf)
 - **Fonts:** [Noto Sans](https://github.com/notofonts/noto-docs)
