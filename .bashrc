@@ -6,6 +6,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+#Add my local bin to the path
+export PATH=$PATH:/home/arun/.local/bin
+
 #Set aliases to make using some commands easier
 alias ls='ls --almost-all --color=auto'
 alias grep='grep --color=auto'
