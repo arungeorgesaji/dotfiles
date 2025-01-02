@@ -8,6 +8,7 @@
 
 #Add my local bin to the path
 export PATH=$PATH:/home/arun/.local/bin
+export PATH=$PATH:~/go/bin
 
 #Set aliases to make using some commands easier
 alias ls='ls --almost-all --color=auto'
