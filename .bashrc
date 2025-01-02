@@ -14,6 +14,7 @@ alias ls='ls --almost-all --color=auto'
 alias grep='grep --color=auto'
 alias icat='kitty +kitten icat'
 alias clear='clear && fastfetch'
+alias conda='/opt/miniconda3/bin/conda'
 
 #Simple functions same use as aliases but this time for using multicommands
 conda-init(){
