@@ -14,12 +14,10 @@ alias ls='ls --almost-all --color=auto'
 alias grep='grep --color=auto'
 alias icat='kitty +kitten icat'
 alias clear='clear && fastfetch'
-alias conda='/opt/miniconda3/bin/conda'
 
 #Simple functions same use as aliases but this time for using multicommands
 conda-init(){
     . /opt/miniconda3/etc/profile.d/conda.sh
-    conda activate base
     export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1
 }
 
@@ -198,4 +196,3 @@ ex=:\
 
 #Commands to run when bash starts
 fastfetch
-
