@@ -16,6 +16,10 @@ return {
         vim.g.copilot_tab_fallback = ""
     end,
   },
+  {
+    "elixir-editors/vim-elixir",
+    lazy = false,
+  },
 
   -- These are some examples, uncomment them if you want to see them work!
   -- {

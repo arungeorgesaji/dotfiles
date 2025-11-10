@@ -3,12 +3,20 @@
 # ~/.bashrc
 #
 
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 #Add my local bin to the path
 export PATH=$PATH:/home/arun/.local/bin
-export PATH=$PATH:~/go/bin
+export PATH=$PATH:~/go/bin 
+
+#Set the default editor to nvim
+export HACKATIME_API_KEY="7fda17be-aefa-4384-90ec-43d6d0d26a6a"
+export HACKATIME_API_URL="https://hackatime.hackclub.com/api/hackatime/v1"
+
+#source ~/emsdk/emsdk_env.sh
+export WASI_SDK_PATH=$(pwd)/wasi-sdk-20.0
 
 #Set aliases to make using some commands easier
 alias ls='ls --almost-all --color=auto'
@@ -197,3 +205,14 @@ ex=:\
 
 #Commands to run when bash starts
 fastfetch
+export ANDROID_HOME=$HOME/android-sdk
+export ANDROID_SDK_ROOT=$ANDROID_HOME
+export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$PATH
+export PATH="/home/arun/.local/bin:/home/arun/android-sdk/cmdline-tools/latest/bin:/home/arun/android-sdk/platform-tools:/home/arun/android-sdk/emulator:/home/arun/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/arun/.local/bin:/home/arun/go/bin:/home/arun/.cargo/bin"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
