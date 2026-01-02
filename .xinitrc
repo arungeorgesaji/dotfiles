@@ -5,7 +5,7 @@ dunst &
 bash/low_battery_alert.sh &
 
 # Set wallpaper using feh
-feh --bg-scale Pictures/wallpapers/wallpaper.png
+feh --bg-scale Pictures/wallpapers/drstone.jpg
 
 #Run dwmblocks in the background
 dwmblocks &
