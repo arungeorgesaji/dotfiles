@@ -6,11 +6,11 @@ bash/low_battery_alert.sh &
 
 #Set monitor layout using xrandr
 xrandr \
-  --output eDP-1 --mode 1920x1080 --primary \
-  --output HDMI-1 --mode 2560x1440 --right-of eDP-1
-
+  --output eDP-1 --mode 1920x1200 --primary \
+  --output DP-1 --mode 2560x1440 --right-of eDP-1
+HDMI
 # Set wallpaper using feh
-feh --bg-scale Pictures/wallpapers/drstone.jpg
+feh --bg-fill --no-fehbg --randomize Pictures/wallpapers/drstone.jpg
 
 #Run dwmblocks in the background
 dwmblocks &
